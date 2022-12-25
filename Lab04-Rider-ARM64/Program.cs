@@ -1,4 +1,5 @@
 ﻿using EasyConsole;
+using Lab04_Rider_ARM64;
 using Lab04_Rider_ARM64.Categories.Portable;
 
 internal class Program {
@@ -6,9 +7,15 @@ internal class Program {
 	private static void Main(string[] args) {
 		OnlineStore onlineStore = new OnlineStore(
 			name: "Apple",
-			baseURL: "https://apple.com/"
+			baseURL: "https://apple.com/",
+			adminPerson: new Admin(
+				firstName: "Tim",
+				lastName: "Cook",
+				email: "tcook@apple.com"
+			)
 		);
 
+		/* Реализация меню */
 		var subscriptions = new Menu();
 		foreach (Item item in Subscriptions.items) {
 			subscriptions.Add($"{item.title} ({item.price} у.е.) [{item.ID}]", () => {
@@ -68,31 +75,21 @@ internal class Program {
 			})
 			.Add("Просмотреть товары в корзине", () => {
 				Console.Clear();
-				
-				if (onlineStore.itemsInCart.Count == 0) {
-					Console.WriteLine("Товаров в корзине нет.");
-				}
-				
-				UInt16 counter = 0;
-				foreach (Item itemInCart in onlineStore.itemsInCart) {
-					Console.WriteLine($"""
-						[Товар №{ ++counter }]
-						Название: { itemInCart.title }
-						Цена: { itemInCart.price }  
-						ID: { itemInCart.ID }
-	
-						""");
-				}
+				Console.WriteLine(onlineStore.shoppingCartListHumanReadable);
 				Console.ReadKey();
 			})
-			.Add("Выполнить заказ", () => Console.WriteLine("bar selected"))
+			.Add("Выполнить заказ", () => {
+				Console.Clear();
+				Console.WriteLine(onlineStore.completeTheOrder());
+				Console.ReadKey();
+			})
 			.Add("Завершить программу", () => Environment.Exit(0));
 		
 		Console.WriteLine(onlineStore.welcomeMessage);
 		
 		Console.WriteLine();
 
-		onlineStore.currentUser = new User(
+		onlineStore.currentUser = new Person(
 			firstName: ConsoleHelper.ReadStringLine(message: "Имя:"),
 			lastName: ConsoleHelper.ReadStringLine(message: "Фамилия:"),
 			email: ConsoleHelper.ReadStringLine(message: "Email:")
