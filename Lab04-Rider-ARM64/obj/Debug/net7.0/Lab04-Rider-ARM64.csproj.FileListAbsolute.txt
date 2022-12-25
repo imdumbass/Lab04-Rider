@@ -1,0 +1,17 @@
+/Users/macintosh/RiderProjects/Lab04-Rider-ARM64/Lab04-Rider-ARM64/bin/Debug/net7.0/Lab04-Rider-ARM64
+/Users/macintosh/RiderProjects/Lab04-Rider-ARM64/Lab04-Rider-ARM64/bin/Debug/net7.0/Lab04-Rider-ARM64.deps.json
+/Users/macintosh/RiderProjects/Lab04-Rider-ARM64/Lab04-Rider-ARM64/bin/Debug/net7.0/Lab04-Rider-ARM64.runtimeconfig.json
+/Users/macintosh/RiderProjects/Lab04-Rider-ARM64/Lab04-Rider-ARM64/bin/Debug/net7.0/Lab04-Rider-ARM64.dll
+/Users/macintosh/RiderProjects/Lab04-Rider-ARM64/Lab04-Rider-ARM64/bin/Debug/net7.0/Lab04-Rider-ARM64.pdb
+/Users/macintosh/RiderProjects/Lab04-Rider-ARM64/Lab04-Rider-ARM64/obj/Debug/net7.0/Lab04-Rider-ARM64.csproj.AssemblyReference.cache
+/Users/macintosh/RiderProjects/Lab04-Rider-ARM64/Lab04-Rider-ARM64/obj/Debug/net7.0/Lab04-Rider-ARM64.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macintosh/RiderProjects/Lab04-Rider-ARM64/Lab04-Rider-ARM64/obj/Debug/net7.0/Lab04-Rider-ARM64.AssemblyInfoInputs.cache
+/Users/macintosh/RiderProjects/Lab04-Rider-ARM64/Lab04-Rider-ARM64/obj/Debug/net7.0/Lab04-Rider-ARM64.AssemblyInfo.cs
+/Users/macintosh/RiderProjects/Lab04-Rider-ARM64/Lab04-Rider-ARM64/obj/Debug/net7.0/Lab04-Rider-ARM64.csproj.CoreCompileInputs.cache
+/Users/macintosh/RiderProjects/Lab04-Rider-ARM64/Lab04-Rider-ARM64/obj/Debug/net7.0/Lab04-Rider-ARM64.dll
+/Users/macintosh/RiderProjects/Lab04-Rider-ARM64/Lab04-Rider-ARM64/obj/Debug/net7.0/refint/Lab04-Rider-ARM64.dll
+/Users/macintosh/RiderProjects/Lab04-Rider-ARM64/Lab04-Rider-ARM64/obj/Debug/net7.0/Lab04-Rider-ARM64.pdb
+/Users/macintosh/RiderProjects/Lab04-Rider-ARM64/Lab04-Rider-ARM64/obj/Debug/net7.0/Lab04-Rider-ARM64.genruntimeconfig.cache
+/Users/macintosh/RiderProjects/Lab04-Rider-ARM64/Lab04-Rider-ARM64/obj/Debug/net7.0/ref/Lab04-Rider-ARM64.dll
+/Users/macintosh/RiderProjects/Lab04-Rider-ARM64/Lab04-Rider-ARM64/obj/Debug/net7.0/Lab04-Rider-ARM64.csproj.CopyComplete
+/Users/macintosh/RiderProjects/Lab04-Rider-ARM64/Lab04-Rider-ARM64/bin/Debug/net7.0/ConsoleMenu.dll

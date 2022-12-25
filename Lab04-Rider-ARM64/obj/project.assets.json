@@ -1,0 +1,100 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "ConsoleMenu-simple/2.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/ConsoleMenu.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/ConsoleMenu.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleMenu-simple/2.4.3": {
+      "sha512": "wrjK/VTZU64eK0jXH3TAyw+omoYNrGtESk0FcdmPtCc4YhNQVEFdUgkioorS09dEPaTajRxQZU6Tg/uDl4Ofsg==",
+      "type": "package",
+      "path": "consolemenu-simple/2.4.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "consolemenu-simple.2.4.3.nupkg.sha512",
+        "consolemenu-simple.nuspec",
+        "lib/net5.0/ConsoleMenu.dll",
+        "lib/netstandard1.3/ConsoleMenu.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "ConsoleMenu-simple >= 2.4.3"
+    ]
+  },
+  "packageFolders": {
+    "/Users/macintosh/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/macintosh/RiderProjects/Lab04-Rider-ARM64/Lab04-Rider-ARM64/Lab04-Rider-ARM64.csproj",
+      "projectName": "Lab04-Rider-ARM64",
+      "projectPath": "/Users/macintosh/RiderProjects/Lab04-Rider-ARM64/Lab04-Rider-ARM64/Lab04-Rider-ARM64.csproj",
+      "packagesPath": "/Users/macintosh/.nuget/packages/",
+      "outputPath": "/Users/macintosh/RiderProjects/Lab04-Rider-ARM64/Lab04-Rider-ARM64/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/macintosh/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "ConsoleMenu-simple": {
+            "target": "Package",
+            "version": "[2.4.3, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

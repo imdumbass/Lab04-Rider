@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZEQONUPP3lXastlZVVa0RecINKE0bn0jszjIa1kpQMJgGe0GLULwg+Z3GsEc6I9vkroR2dntuNVspIUnIcqCjA==",
+  "success": true,
+  "projectFilePath": "/Users/macintosh/RiderProjects/Lab04-Rider-ARM64/Lab04-Rider-ARM64/Lab04-Rider-ARM64.csproj",
+  "expectedPackageFiles": [
+    "/Users/macintosh/.nuget/packages/consolemenu-simple/2.4.3/consolemenu-simple.2.4.3.nupkg.sha512"
+  ],
+  "logs": []
+}
