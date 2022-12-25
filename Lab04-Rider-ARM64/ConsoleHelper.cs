@@ -5,7 +5,7 @@ public static class ConsoleHelper {
 		string consoleInput;
 		do {
 			consoleInput = Console.ReadLine();
-		} while (String.IsNullOrEmpty(consoleInput));
+		} while (string.IsNullOrEmpty(consoleInput));
 
 		return consoleInput;
 	}

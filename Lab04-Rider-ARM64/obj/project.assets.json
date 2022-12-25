@@ -2,37 +2,34 @@
   "version": 3,
   "targets": {
     "net7.0": {
-      "ConsoleMenu-simple/2.4.3": {
+      "EasyConsole/1.1.0": {
         "type": "package",
         "compile": {
-          "lib/net5.0/ConsoleMenu.dll": {}
+          "lib/net452/EasyConsole.dll": {}
         },
         "runtime": {
-          "lib/net5.0/ConsoleMenu.dll": {}
+          "lib/net452/EasyConsole.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "ConsoleMenu-simple/2.4.3": {
-      "sha512": "wrjK/VTZU64eK0jXH3TAyw+omoYNrGtESk0FcdmPtCc4YhNQVEFdUgkioorS09dEPaTajRxQZU6Tg/uDl4Ofsg==",
+    "EasyConsole/1.1.0": {
+      "sha512": "fEBI56S+m8g3VXRFHYxf9a9VUmBAkT8WZXFpRVou7cDTWmAEaloSWyXPHG7tHfUt+wkBovc9GSzZohuYdpWcsQ==",
       "type": "package",
-      "path": "consolemenu-simple/2.4.3",
+      "path": "easyconsole/1.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "LICENSE.txt",
-        "README.md",
-        "consolemenu-simple.2.4.3.nupkg.sha512",
-        "consolemenu-simple.nuspec",
-        "lib/net5.0/ConsoleMenu.dll",
-        "lib/netstandard1.3/ConsoleMenu.dll"
+        "easyconsole.1.1.0.nupkg.sha512",
+        "easyconsole.nuspec",
+        "lib/net452/EasyConsole.dll"
       ]
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "ConsoleMenu-simple >= 2.4.3"
+      "EasyConsole >= 1.1.0"
     ]
   },
   "packageFolders": {
@@ -72,9 +69,9 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
-          "ConsoleMenu-simple": {
+          "EasyConsole": {
             "target": "Package",
-            "version": "[2.4.3, )"
+            "version": "[1.1.0, )"
           }
         },
         "imports": [
@@ -96,5 +93,17 @@
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'EasyConsole 1.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "EasyConsole",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

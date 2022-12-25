@@ -1,7 +1,9 @@
-public class Subscriptions: Services {
-	private static string subcategoryName = "Подписки";
-
-	public static List<Item> items = new List<Item> {
+public class Subscriptions: Category {
+	public override string getCategoryName() {
+		return "Подписки";
+	}
+	
+	public static List<Item> items = new() {
 		new Item(
 			title: "Apple Music (1 месяц)",
 			price: 199,

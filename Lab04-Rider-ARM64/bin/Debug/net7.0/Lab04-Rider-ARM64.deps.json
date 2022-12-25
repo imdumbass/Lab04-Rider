@@ -8,17 +8,17 @@
     ".NETCoreApp,Version=v7.0": {
       "Lab04-Rider-ARM64/1.0.0": {
         "dependencies": {
-          "ConsoleMenu-simple": "2.4.3"
+          "EasyConsole": "1.1.0"
         },
         "runtime": {
           "Lab04-Rider-ARM64.dll": {}
         }
       },
-      "ConsoleMenu-simple/2.4.3": {
+      "EasyConsole/1.1.0": {
         "runtime": {
-          "lib/net5.0/ConsoleMenu.dll": {
-            "assemblyVersion": "2.4.3.0",
-            "fileVersion": "2.4.3.0"
+          "lib/net452/EasyConsole.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
           }
         }
       }
@@ -30,12 +30,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "ConsoleMenu-simple/2.4.3": {
+    "EasyConsole/1.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wrjK/VTZU64eK0jXH3TAyw+omoYNrGtESk0FcdmPtCc4YhNQVEFdUgkioorS09dEPaTajRxQZU6Tg/uDl4Ofsg==",
-      "path": "consolemenu-simple/2.4.3",
-      "hashPath": "consolemenu-simple.2.4.3.nupkg.sha512"
+      "sha512": "sha512-fEBI56S+m8g3VXRFHYxf9a9VUmBAkT8WZXFpRVou7cDTWmAEaloSWyXPHG7tHfUt+wkBovc9GSzZohuYdpWcsQ==",
+      "path": "easyconsole/1.1.0",
+      "hashPath": "easyconsole.1.1.0.nupkg.sha512"
     }
   }
 }

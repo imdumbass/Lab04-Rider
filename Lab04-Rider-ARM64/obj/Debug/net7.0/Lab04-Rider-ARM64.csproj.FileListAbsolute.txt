@@ -14,4 +14,4 @@
 /Users/macintosh/RiderProjects/Lab04-Rider-ARM64/Lab04-Rider-ARM64/obj/Debug/net7.0/Lab04-Rider-ARM64.genruntimeconfig.cache
 /Users/macintosh/RiderProjects/Lab04-Rider-ARM64/Lab04-Rider-ARM64/obj/Debug/net7.0/ref/Lab04-Rider-ARM64.dll
 /Users/macintosh/RiderProjects/Lab04-Rider-ARM64/Lab04-Rider-ARM64/obj/Debug/net7.0/Lab04-Rider-ARM64.csproj.CopyComplete
-/Users/macintosh/RiderProjects/Lab04-Rider-ARM64/Lab04-Rider-ARM64/bin/Debug/net7.0/ConsoleMenu.dll
+/Users/macintosh/RiderProjects/Lab04-Rider-ARM64/Lab04-Rider-ARM64/bin/Debug/net7.0/EasyConsole.dll
